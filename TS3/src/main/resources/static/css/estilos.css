@@ -16,29 +16,12 @@
     font-size: 18px;
 }
 
-#menu {
-    position: absolute;
-    top: 8%;
-    left: 0;
-    height: 4%;
-    width: 100%;
-    background-color:  #003366;
-    color: black;
-}
-#menu a:hover {
-    background: navy;
-    color: white;
-}
-#menu a:visited{
-    color: red;
-}
-
 #barraLateral{
     position: absolute;
     top: 8.5%;
     left: 0;
     height: 90%;
-    width: 15%;
+    width: 12%;
     background-color:  #cbbba6;
     color: black;
 }
@@ -46,9 +29,9 @@
 #contenido{
     position: absolute;
     top: 8.5%;
-    left: 15%;
+    left: 12%;
     height: 90%;
-    width: 85%;
+    width: 88%;
     background-color:  #ede2d6;
     color: black;
     overflow: auto;
@@ -104,4 +87,16 @@
 .center-table {
     margin-left: auto;
     margin-right: auto;
+}
+
+.mid-center {
+    display: block;
+    margin-left: 25%;
+    margin-right: auto;
+    width: 300px;
+}
+
+*{
+ 
+ font-family: 'Helvetica', sans-serif;
 }

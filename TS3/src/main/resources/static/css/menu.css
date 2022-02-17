@@ -1,6 +1,8 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'Helvetica', sans-serif;
 }
 
 body {
@@ -10,7 +12,7 @@ body {
 
 .header {
     background-color:#493d2f ;
-    height: 80px;
+    height: 8.5%;
     position: fixed;
     top: 0;
     left: 0;
@@ -50,7 +52,7 @@ body {
 }
 
 .nav-menu-item:hover {
-    background-color: #493d2f;
+    background-color: #35322f;
     transition: 0.5s;
 }
 
